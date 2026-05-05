@@ -1,0 +1,66 @@
+body {
+  background: radial-gradient(circle, rgba(75, 242, 97, 0.69) 0%, rgba(74, 231, 239, 1) 55%, rgba(0, 139, 181, 0.88) 100%);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: consolas, monospace;
+  justify-content: center; 
+  align-items: center;
+}
+
+#pantalla-inicio, #contenido-contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  /* Aumentamos el margen para que la frase esté más arriba del contador */
+  margin-bottom: 80px; 
+}
+
+#titulo-principal {
+  font-size: 45px; /* Frase más grande */
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+}
+
+main > div {
+  text-align: center;
+}
+
+h2 {
+  font-size: 150px; /* Contador mucho más grande */
+  margin: 0;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 25px; /* Etiquetas (Días, Horas...) un poco más grandes */
+  margin: 0;
+}
+
+.cumpleaños {
+  background: radial-gradient(circle,rgba(236, 242, 75, 0.69) 0%, rgb(255, 172, 28) 50%, rgba(252, 76, 0, 0.88) 100%) !important;
+}
+
+#boton-empezar {
+  padding: 20px 40px;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: #008bb5;
+  color: white;
+  border: 4px solid white;
+  border-radius: 15px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cuenta Atrás</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div id="pantalla-inicio">
+        <h1>¿Preparado para la cuenta atrás?</h1>
+        <button id="boton-empezar">¡EMPEZAR!</button>
+    </div>
+
+    <div id="contenido-contador" style="display: none;">
+        <header>
+            <h1 id="titulo-principal">Lo que falta para mi cumple</h1>
+        </header>
+        
+        <main>
+            <div><h2 id="dias">00</h2><h3>Días</h3></div>
+            <div><h2 id="horas">00</h2><h3>Horas</h3></div>
+            <div><h2 id="minutos">00</h2><h3>Minutos</h3></div>
+            <div><h2 id="segundos">00</h2><h3>Segundos</h3></div>
+        </main>
+    </div>
+
+    <audio id="sonido-cumple" src="./audio/audio.mp3"></audio>
+
+    <script src="index.js"></script>
+</body>
+</html>
